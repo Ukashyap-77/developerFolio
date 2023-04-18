@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Nikhil Vaidyanathan",
-  title: "Hi all, I'm Nikhil",
+  username: "Nikhil",
+  title: "Hi all, I'm Nikhil Vaidyanathan",
   subTitle: emoji(
     "I am a passionate computer science enthusiast 🚀 with a love for technology and programming. As a lifelong learner, I am constantly seeking new challenges and opportunities to expand my knowledge and skills"
   ),
