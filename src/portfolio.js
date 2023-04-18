@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Nikhil Vaidyanathan",
+  title: "Hi all, I'm Nikhil",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a passionate computer science enthusiast 🚀 with a love for technology and programming. As a lifelong learner, I am constantly seeking new challenges and opportunities to expand my knowledge and skills"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -36,10 +36,10 @@ const socialMediaLinks = {
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -117,7 +117,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -126,23 +126,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
+      schoolName: "Jakarta Intercultural School",
+      logo: require("./assets/images/JakartaIntercuturalSchoolLogo.png"),
+      subHeader: "Degree / Education",
       duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      descBullets: ["Class of 2023", "GPA: 4.08 / 4.3"]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "Oberlin College",
+      logo: require("./assets/images/OblerinCollegeLogo.png"),
+      subHeader: "Degree / Education",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      descBullets: [
+        "GPA: 4.0 (6 college credits)",
+        "ACT: 35 Composite (34 E, 36 M, 33 R, 36 S)"
+      ]
     }
   ]
 };
@@ -174,29 +174,136 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Independent Research, Pioneer Academics: Computer Science & Mathematics",
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
+      showCompany: false,
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "With Davidson College’s Tim Chartier, created a 35 page independent research paper titled “Verifying Gambling Odds using Deep Learning and Machine Learning. Covers graduate computer science topics such as Cross Entropy Cost Functions, Multivariable Logistic Regression, and Bernoulli’s Distribution. Paper is undergoing peer review, with results of inflated advertised odds to be reported on the news after peer review from Microsoft/UofT’s Omkar Dige.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participation grade levels: 11",
+        "Hours per week: 30. Weeks spent per year: 14"
       ]
     },
     {
-      role: "Front-End Developer",
+      role: "Co-Founder, AQI Solutions Jakarta",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
+      showCompany: false,
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Researched algae microbiology & JKT air quality, co-authored a 28 page paper, created economical (<40$) algae air purifier with a corsi/rosenthal box fan filter. Planned distribution to kampungs in 2023, after sufficient funds are raised. Patent pending.",
+      descBullets: [
+        "Participation grade levels 11, 12",
+        "Hours Spent per week: 6, Weeks spent per year: 25"
+      ]
     },
     {
-      role: "Software Engineer Intern",
+      role: "Violin and Piano, Musical Instrument",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Practice daily and work weekly with a teacher, prepared violin using the Suzuki method, prepared for ABRSM piano exams, organized charity concerts.",
+      descBullets: [
+        "Participation grade levels 9, 10, 11, 12",
+        "Hours spent per week 6, Weeks spent per year 50"
+      ]
+    },
+    {
+      role: "Data Science Intern, Rekosistem",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Analyzed and visualized patterns in the App's Consumer Interface using Python, SQL, and Google Data Studio. Organized all Rebox transaction data, wrote reports detailing strategies regarding value of RekoPoints.",
+      descBullets: [
+        "Participation grade levels: 11",
+        "Hours Spent per week: 21, Weeks Spent per year: 9"
+      ]
+    },
+    {
+      role: "Founder, Protectheros.id (in partnership with Indonesian’s Doctor’s Association)",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Created an initiative during the peak of COVID to fundraise for protective equipment for the frontline Indonesian doctors. From the community, raised nearly $2000 for PPE and N-95 Masks through Indonesia’s largest fundraising platform, Kitabisa.",
+      descBullets: [
+        "Participating Grade Levels 9",
+        "Hours spent per week 7, Weeks spent per year 6"
+      ]
+    },
+    {
+      role: "Independent Research, Pioneer Academics: Music Theory",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Worked with Johns Hopkins professor, Mark Janello, to create a 16-page independent research project on qualitative and quantitative analysis on fugue pieces over the Baroque and Bach periods. Received an ‘A’ on the final paper.",
+      descBullets: [
+        "Participation grade levels: 10",
+        "Hours spent per week 15, Weeks spent per year: 12"
+      ]
+    },
+    {
+      role: "Partner/Associate Teacher, Save The Children Indonesia",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Collected 90 devices for students to e-learn in rural Java, taught English to 20 orphans in Sumba, helped teachers learn technology for online school during the onset of the pandemic.",
+      descBullets: [
+        "Participation grade levels: 10, 11, 12",
+        "Hours spent per week 4, Weeks spent per year 30"
+      ]
+    },
+    {
+      role: "President, Unite for Children’s Foundation",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Partnered JIS & STC, provided hygiene kits/8 water stations, raised sanitization awareness for Java school reopening, created online learning material.",
+      descBullets: [
+        "Participation grade levels 10, 11",
+        "Hours spent per week 2, Weeks spent per year 30"
+      ]
+    },
+    {
+      role: "Vice President/President, Rachel House @JIS/Children Bloom’s Club",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Raised ~3000$ and led initiatives supporting terminally ill children/families. Ran fundraisers, and other palliative care initiatives. Spoke at webinars on Indonesia's serious illness epidemic in children.",
+      descBullets: [
+        "Participation grade levels: 10, 11, 12",
+        "Hours spent per week 2, Weeks spent per year 30"
+      ]
+    },
+    {
+      role: "Co-founder, Asia Untold",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Began a teen-led Insta account that brings awareness to Asian issues not extensively covered by the mainstream media, 6k followers & 100k+ impressions.",
+      descBullets: [
+        "Participation grade levels: 10, 11, 12",
+        "Hours spent per week 2, Weeks spent per year 20"
+      ]
+    },
+    {
+      role: "Co-founder, Tech and Engineering Society",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      showCompany: false,
+      date: "Jan 2015 – Sep 2015",
+      desc: "Founded a club that helps peers dive deeper into STEM fields, namely Data Science & Machine Learning. Co-authored ML paper analyzing JKT's pollution.",
+      descBullets: [
+        "Participation grade levels: 11, 12",
+        "Hours spent per week 1.5, Weeks spent per year 30"
+      ]
     }
   ]
 };
@@ -206,7 +313,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +346,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -248,56 +355,74 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Honors, Awards and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Top 10% Pioneer Academics Paper",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Out of nearly one thousand students making the first round of the Pioneer Journal Process",
+      image: require("./assets/images/PioneerAcademics.jpeg"),
+      imageAlt: "Pioneer Logo",
+      footerLink: [{name: "Achievement", url: ""}]
     },
     {
-      title: "Google Assistant Action",
+      title: "Top 5% Pioneer Academics Paper",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "In bibendum iaculis enim non viverra. Curabitur a sagittis mauris, in semper justo. Quisque condimentum consectetur est, id vehicula sapien. Etiam vitae ultricies erat. Donec vitae porttitor dui. Maecenas luctus a metus id commodo. Sed vel nisi non lacus fringilla vulputate.",
+      image: require("./assets/images/PioneerAcademics.jpeg"),
+      imageAlt: "Pioneer Logo",
+      footerLink: [{name: "Achievement", url: ""}]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Highest grade level AMC",
+      subtitle: "A score of 10, 2020",
+      image: require("./assets/images/AMC.png"),
+      imageAlt: "AMC Logo",
+      footerLink: [{name: "Achievement", url: ""}]
+    },
+    {
+      title: "ABRSM Grade 8 Piano",
+      subtitle:
+        "Awarded to less than 50 students nationally certifying the highest level of piano examination distinction in the UK, given UCAS points",
+      image: require("./assets/images/ABRSM.webp"),
+      imageAlt: "ABRSM Logo",
+      footerLink: [{name: "Award", url: ""}]
+    },
+    {
+      title: "Indonesian Doctor’s Association Certificate of Recognition",
+      subtitle: "Awarded for the efforts to donate PPE to Doctors",
+      image: require("./assets/images/IDA.webp"),
+      imageAlt: "IDA Logo",
+      footerLink: [{name: "Certification", url: ""}]
+    },
+    {
+      title: "Save The Children Certificate of Appreciation",
+      subtitle: "The highest volunteer award in the organization",
+      image: require("./assets/images/SaveTheChildren.jpeg"),
+      imageAlt: "IDA Logo",
+      footerLink: [{name: "Certification", url: ""}]
+    },
+    {
+      title: "British Physics Olympiad",
+      subtitle: "Awarded the Senior Challenge Gold",
+      image: require("./assets/images/BPO.jpeg"),
+      imageAlt: "IDA Logo",
+      footerLink: [{name: "Award", url: ""}]
+    },
+    {
+      title: "CREST Gold Award",
+      subtitle: "Awarded to a select few STEM research projects with over 70 hours in a paper",
+      image: require("./assets/images/CREST.png"),
+      imageAlt: "IDA Logo",
+      footerLink: [{name: "Award", url: ""}]
+    },
+    {
+      title: "Math Honors Society",
+      subtitle: "Math Honors Society, 2019",
+      image: require("./assets/images/MHS.png"),
+      imageAlt: "IDA Logo",
+      footerLink: [{name: "Honor", url: ""}]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,7 +449,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +468,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +481,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss anything or just want to say hi? My Inbox is open for all.",
+  number: "+62-8119933047",
+  email_address: "nikhil.lalgudi@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
