@@ -400,28 +400,28 @@ const achievementSection = {
       title: "Save The Children Certificate of Appreciation",
       subtitle: "The highest volunteer award in the organization",
       image: require("./assets/images/SaveTheChildren.jpeg"),
-      imageAlt: "IDA Logo",
+      imageAlt: "Save The Children Logo",
       footerLink: [{name: "Certification", url: ""}]
     },
     {
       title: "British Physics Olympiad",
       subtitle: "Awarded the Senior Challenge Gold",
       image: require("./assets/images/BPO.jpeg"),
-      imageAlt: "IDA Logo",
+      imageAlt: "BPO Logo",
       footerLink: [{name: "Award", url: ""}]
     },
     {
       title: "CREST Gold Award",
       subtitle: "Awarded to a select few STEM research projects with over 70 hours in a paper",
       image: require("./assets/images/CREST.png"),
-      imageAlt: "IDA Logo",
+      imageAlt: "CREST Logo",
       footerLink: [{name: "Award", url: ""}]
     },
     {
       title: "Math Honors Society",
       subtitle: "Math Honors Society, 2019",
       image: require("./assets/images/MHS.png"),
-      imageAlt: "IDA Logo",
+      imageAlt: "MHS Logo",
       footerLink: [{name: "Honor", url: ""}]
     }
   ],
