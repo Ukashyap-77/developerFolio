@@ -65,6 +65,7 @@ export default function socialMedia() {
           className="icon-button facebook"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-facebook-f"></i>
           <span></span>
@@ -77,6 +78,7 @@ export default function socialMedia() {
           className="icon-button instagram"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-instagram"></i>
           <span></span>
@@ -89,6 +91,7 @@ export default function socialMedia() {
           className="icon-button twitter"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-twitter"></i>
           <span></span>
@@ -101,6 +104,7 @@ export default function socialMedia() {
           className="icon-button medium"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-medium"></i>
           <span></span>
@@ -113,6 +117,7 @@ export default function socialMedia() {
           className="icon-button stack-overflow"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-stack-overflow"></i>
           <span></span>
@@ -125,6 +130,7 @@ export default function socialMedia() {
           className="icon-button kaggle"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-kaggle"></i>
           <span></span>
