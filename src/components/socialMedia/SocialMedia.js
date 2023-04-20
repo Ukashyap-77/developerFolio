@@ -14,6 +14,7 @@ export default function socialMedia() {
           className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-github"></i>
           <span></span>
@@ -26,6 +27,7 @@ export default function socialMedia() {
           className="icon-button linkedin"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-linkedin-in"></i>
           <span></span>
@@ -50,6 +52,7 @@ export default function socialMedia() {
           className="icon-button gitlab"
           target="_blank"
           rel="noopener noreferrer"
+          style={{pointerEvents: "none"}}
         >
           <i className="fab fa-gitlab"></i>
           <span></span>
