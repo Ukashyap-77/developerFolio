@@ -392,7 +392,7 @@ const achievementSection = {
     {
       title: "Save The Children Certificate of Appreciation",
       subtitle: "The highest volunteer award in the organization",
-      image: require("./assets/images/STC.jpeg"),
+      image: require("./assets/images/SaveChildren.png"),
       imageAlt: "Save The Children Logo",
       footerLink: [{name: "Certification", url: ""}]
     },
