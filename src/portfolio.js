@@ -123,16 +123,16 @@ const educationInfo = {
     {
       schoolName: "Jakarta Intercultural School",
       logo: require("./assets/images/JakartaIntercuturalSchoolLogo.png"),
-      subHeader: "Degree / Education",
-      duration: "September 2017 - April 2019",
+      subHeader: "",
+      duration: "",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: ["Class of 2023", "GPA: 4.08 / 4.3"]
     },
     {
       schoolName: "Oberlin College",
       logo: require("./assets/images/OblerinCollegeLogo.png"),
-      subHeader: "Degree / Education",
-      duration: "September 2013 - April 2017",
+      subHeader: "",
+      duration: "",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       descBullets: [
         "GPA: 4.0 (6 college credits)",
@@ -173,7 +173,7 @@ const workExperiences = {
       company: "Facebook",
       companylogo: require("./assets/images/facebookLogo.png"),
       showCompany: false,
-      date: "June 2018 – Present",
+      date: "",
       desc: "With Davidson College’s Tim Chartier, created a 35 page independent research paper titled “Verifying Gambling Odds using Deep Learning and Machine Learning. Covers graduate computer science topics such as Cross Entropy Cost Functions, Multivariable Logistic Regression, and Bernoulli’s Distribution. Paper is undergoing peer review, with results of inflated advertised odds to be reported on the news after peer review from Microsoft/UofT’s Omkar Dige.",
       descBullets: [
         "Participation grade levels: 11",
@@ -185,7 +185,7 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       showCompany: false,
-      date: "May 2017 – May 2018",
+      date: "",
       desc: "Researched algae microbiology & JKT air quality, co-authored a 28 page paper, created economical (<40$) algae air purifier with a corsi/rosenthal box fan filter. Planned distribution to kampungs in 2023, after sufficient funds are raised. Patent pending.",
       descBullets: [
         "Participation grade levels 11, 12",
@@ -197,7 +197,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Practice daily and work weekly with a teacher, prepared violin using the Suzuki method, prepared for ABRSM piano exams, organized charity concerts.",
       descBullets: [
         "Participation grade levels 9, 10, 11, 12",
@@ -209,7 +209,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Analyzed and visualized patterns in the App's Consumer Interface using Python, SQL, and Google Data Studio. Organized all Rebox transaction data, wrote reports detailing strategies regarding value of RekoPoints.",
       descBullets: [
         "Participation grade levels: 11",
@@ -221,7 +221,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Created an initiative during the peak of COVID to fundraise for protective equipment for the frontline Indonesian doctors. From the community, raised nearly $2000 for PPE and N-95 Masks through Indonesia’s largest fundraising platform, Kitabisa.",
       descBullets: [
         "Participating Grade Levels 9",
@@ -233,7 +233,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Worked with Johns Hopkins professor, Mark Janello, to create a 16-page independent research project on qualitative and quantitative analysis on fugue pieces over the Baroque and Bach periods. Received an ‘A’ on the final paper.",
       descBullets: [
         "Participation grade levels: 10",
@@ -245,7 +245,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Collected 90 devices for students to e-learn in rural Java, taught English to 20 orphans in Sumba, helped teachers learn technology for online school during the onset of the pandemic.",
       descBullets: [
         "Participation grade levels: 10, 11, 12",
@@ -257,7 +257,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Partnered JIS & STC, provided hygiene kits/8 water stations, raised sanitization awareness for Java school reopening, created online learning material.",
       descBullets: [
         "Participation grade levels 10, 11",
@@ -269,7 +269,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Raised ~3000$ and led initiatives supporting terminally ill children/families. Ran fundraisers, and other palliative care initiatives. Spoke at webinars on Indonesia's serious illness epidemic in children.",
       descBullets: [
         "Participation grade levels: 10, 11, 12",
@@ -281,7 +281,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Began a teen-led Insta account that brings awareness to Asian issues not extensively covered by the mainstream media, 6k followers & 100k+ impressions.",
       descBullets: [
         "Participation grade levels: 10, 11, 12",
@@ -293,7 +293,7 @@ const workExperiences = {
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       showCompany: false,
-      date: "Jan 2015 – Sep 2015",
+      date: "",
       desc: "Founded a club that helps peers dive deeper into STEM fields, namely Data Science & Machine Learning. Co-authored ML paper analyzing JKT's pollution.",
       descBullets: [
         "Participation grade levels: 11, 12",
