@@ -32,11 +32,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com",
-  linkedin: "https://www.linkedin.com",
+  linkedin: " https://www.linkedin.com/in/nikhil-vaidyanathan",
   gmail: "nikhil.lalgudi@gmail.com",
-  // gitlab: "https://gitlab.com",
-  facebook: "https://www.facebook.com",
+  instagram: "https://instagram.com/nikhilvaidyanathan?igshid=ZWIzMWE5ZmU3Zg==",
   display: true // Set true to display this section, defaults to false
 };
 
