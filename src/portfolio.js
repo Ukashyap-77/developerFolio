@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I am a passionate computer science enthusiast 🚀 with a love for technology and programming. As a lifelong learner, I am constantly seeking new challenges and opportunities to expand my knowledge and skills"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "https://pdfhost.io/v/StosOch9f_resume2", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -408,7 +407,8 @@ const achievementSection = {
     },
     {
       title: "CREST Gold Award",
-      subtitle: "Awarded to a select few STEM research projects with over 70 hours in a paper",
+      subtitle:
+        "Awarded to a select few STEM research projects with over 70 hours in a paper",
       image: require("./assets/images/CREST.png"),
       imageAlt: "CREST Logo",
       footerLink: [{name: "Award", url: ""}]
