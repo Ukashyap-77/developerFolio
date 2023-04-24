@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "I am a passionate computer science enthusiast 🚀 with a love for technology and programming. As a lifelong learner, I am constantly seeking new challenges and opportunities to expand my knowledge and skills"
   ),
-  resumeLink: "https://pdfhost.io/v/StosOch9f_resume2", // Set to empty to hide the button
+  resumeLink: "https://pdfhost.io/v/BHJGJnoVn_nikhil_resume", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
